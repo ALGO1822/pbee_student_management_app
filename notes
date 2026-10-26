@@ -1,0 +1,14 @@
+url = https://lfwoxybqhetisezuwvxr.supabase.co
+key = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxmd294eWJxaGV0aXNlenV3dnhyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIzMDU1ODIsImV4cCI6MjA3Nzg4MTU4Mn0.Bfa2l1OcCnazb5aXhKYOp1wOnNU8nY9vChDoZBiGe5U
+
+
+
+
+Your next steps will be to execute Phase 2 (Authentication). This involves:
+
+Renaming lib/screens/admin/admin_entry.dart to lib/screens/auth/login_screen.dart.
+
+Renaming lib/screens/user/user_entry.dart to lib/screens/auth/signup_screen.dart.
+
+Creating a new lib/screens/splash_screen.dart that checks supabase.auth.currentUser to decide which screen to show first.
+
