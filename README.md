@@ -114,12 +114,6 @@ To target a specific platform:
 ```bash
 # Android
 flutter run -d android
-
-# Windows
-flutter run -d windows
-
-# Chrome (Web)
-flutter run -d chrome
 ```
 
 ---
@@ -133,10 +127,4 @@ flutter build apk --release
 
 # Android App Bundle
 flutter build appbundle --release
-
-# Windows executable
-flutter build windows --release
-
-# Web
-flutter build web --release
 ```
